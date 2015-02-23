@@ -1,0 +1,179 @@
+ <hr class="featurette-divider">
+      <div class="container fitvid">
+          <div id="videocontainer">
+                <iframe src="http://player.vimeo.com/video/114841451" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+
+             
+      </div>
+      <hr class="featurette-divider" id="navpoint-about">
+
+
+
+
+
+
+
+
+<!-- /////////////////////////////////////////////////////// -->
+<div class="" id="profiles">
+    <div class="container withtop" >
+
+   <button class="filter" data-filter=".category-1">Category 1</button>
+      <button class="filter" data-filter=".category-2">Category 2</button>
+      <button class="filter" data-filter="all">See All</button>
+      <!-- /END THE FEATURETTES -->
+     <!-- Three columns of text below the carousel -->
+      <div class="links row withtop" id="MixCategories">
+
+        <div class="col-lg-4 mix category-1" data-my-order="1">
+          <img class="img-circle" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 mix category-2" data-my-order="2">
+          <img class="img-circle" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 mix category-2" data-my-order="3">
+          <img class="img-circle" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 mix category-1" data-my-order="4">
+          <img class="img-circle" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+  </div>
+
+
+
+
+    </div>
+</div>
+<!-- /////////////////////////////////////////////////////// -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="wallpapered wallimage bar"></div>
+
+
+
+
+ 
+
+<hr class="featurette-divider" id="navpoint-section2">
+
+<div class="container">
+    <div id="links row withtop">
+
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <!-- Photo Gallery 3 columns items list-->
+            
+
+                <div class="col-xs-12 col-sm-6 col-lg-4"> 
+                  <div class="well-white IEposfix">       
+                  <a href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" title="Put a title here" data-gallery>
+                    <img src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Put a title here" class="img-responsive">
+                  </a>
+                  </div>
+                </div>
+             
+
+                <div class="col-xs-12 col-sm-6 col-lg-4"> 
+                  <div class="well-white IEposfix">       
+                  <a href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0263-500px.jpg" title="Put a title here" data-gallery="">
+                    <img src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0263-500px.jpg" alt="" class="img-responsive">
+                  </a>
+                  </div>
+                </div>
+             
+
+                <div class="col-xs-12 col-sm-6 col-lg-4"> 
+                  <div class="well-white IEposfix">       
+                  <a href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0250-500px.jpg" title="" data-gallery="">
+                    <img src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0250-500px.jpg" alt="" class="img-responsive">
+                  </a>
+                  </div>
+                </div>
+             
+
+                <div class="col-xs-12 col-sm-6 col-lg-4"> 
+                  <div class="well-white IEposfix">       
+                  <a href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0248-500px.jpg" title="" data-gallery="">
+                    <img src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0248-500px.jpg" alt="" class="img-responsive">
+                  </a>
+                  </div>
+                </div>
+             
+
+                <div class="col-xs-12 col-sm-6 col-lg-4"> 
+                  <div class="well-white IEposfix">       
+                  <a href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0232-500px.jpg" title="" data-gallery="">
+                    <img src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0232-500px.jpg" alt="" class="img-responsive">
+                  </a>
+                  </div>
+                </div>
+
+             <!-- end Photo Gallery 3 columns items list -->
+             
+              </div><!--end Slides box-->              
+          </div>
+</div>
+
+
+    <div class="wallpapered wallimage bar">
+
+ <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+      <!-- The container for the modal slides -->
+      <div class="slides"></div>
+      <!-- Controls for the borderless lightbox -->
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+      <!-- The modal dialog, which will be used to wrap the lightbox content -->
+      <!--<div class="modal fade">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title"></h4>
+                  </div>
+                  <div class="modal-body next"></div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default pull-left prev">
+                          <i class="glyphicon glyphicon-chevron-left"></i>
+                          Previous
+                      </button>
+                      <button type="button" class="btn btn-primary next">
+                          Next
+                          <i class="glyphicon glyphicon-chevron-right"></i>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>-->
+  </div>      

@@ -1,0 +1,96 @@
+<table style="width: 100%;">
+<tbody>
+<tr>
+<td style="width: 50%;">first</td>
+<td style="width: 50%;"><input id="first" name="first" title="first" type="text" value="" validation="type:text;required:true" uniqueid="617618630" /></td>
+</tr>
+<tr>
+<td>middle</td>
+<td><input id="middle" name="middle" title="middle" type="text" value="" validation="type:text" uniqueid="617618631" /></td>
+</tr>
+<tr>
+<td>last</td>
+<td><input id="last" name="last" title="last" type="text" value="" validation="type:text;required:true" uniqueid="617618632" /></td>
+</tr>
+<tr>
+<td>address1</td>
+<td><input id="address1" name="address1" title="address1" type="text" value="" validation="type:text;required:true" uniqueid="617618633" /></td>
+</tr>
+<tr>
+<td>address2</td>
+<td><input id="address2" name="address2" title="address2" type="text" value="" validation="type:text" uniqueid="617618634" /></td>
+</tr>
+<tr>
+<td>city</td>
+<td><input id="city" name="city" title="city" type="text" value="" validation="type:text;required:true" uniqueid="617618635" /></td>
+</tr>
+<tr>
+<td>state</td>
+<td><input id="state" name="state" title="state" type="text" value="" validation="type:text;required:true" uniqueid="617618636" /></td>
+</tr>
+<tr>
+<td>zip</td>
+<td><input id="zip" name="zip" title="zip" type="text" value="" validation="type:number;required:true;minBound:gt;maxBound:lt" uniqueid="617618637" /></td>
+</tr>
+<tr>
+<td>email</td>
+<td><input id="email" name="email" title="email" type="text" value="" validation="type:email;required:true;sendConfirm:true" uniqueid="617618638" /></td>
+</tr>
+<tr>
+<td>gender</td>
+<td><select id="gender" name="gender" title="gender" validation="type:string" uniqueid="617618639"><option label="Unselected" value="unselected">Unselected</option><option label="Male" value="male">Male</option><option label="Female" value="female">Female</option></select></td>
+</tr>
+<tr>
+<td>date_of_birth</td>
+<td><input id="date_of_birth" name="date_of_birth" title="date_of_birth" type="text" value="" validation="type:text;required:true" uniqueid="617618640" /></td>
+</tr>
+<tr>
+<td>occupation</td>
+<td><input id="occupation" name="occupation" title="occupation" type="text" value="" validation="type:text;required:true" uniqueid="617618641" /></td>
+</tr>
+<tr>
+<td>marathon_number</td>
+<td><input id="marathon_number" name="marathon_number" title="marathon_number" type="text" value="" validation="type:number;required:true;minBound:gt;maxBound:lt" uniqueid="617618642" /></td>
+</tr>
+<tr>
+<td>yes_ran_nyc</td>
+<td><input id="yes_ran_nyc" name="yes_ran_nyc" title="yes_ran_nyc :: yes" type="checkbox" value="yes" uniqueid="617618643" /> <label>yes </label></td>
+</tr>
+<tr>
+<td>yes_ran_nyc_when</td>
+<td><input id="yes_ran_nyc_when" name="yes_ran_nyc_when" title="yes_ran_nyc_when" type="text" value="" validation="type:text" uniqueid="617618644" /></td>
+</tr>
+<tr>
+<td>yes_ran_with_AMCA</td>
+<td><input id="yes_ran_with_AMCA" name="yes_ran_with_AMCA" title="yes_ran_with_AMCA :: yes" type="checkbox" value="yes" uniqueid="617618645" /> <label>yes </label></td>
+</tr>
+<tr>
+<td>yes_ran_with_AMCA_when</td>
+<td><input id="yes_ran_with_AMCA_when" name="yes_ran_with_AMCA_when" title="yes_ran_with_AMCA_when" type="text" value="" validation="type:text" uniqueid="617618646" /></td>
+</tr>
+<tr>
+<td>yes_ive_fundraised</td>
+<td><input id="yes_ive_fundraised" name="yes_ive_fundraised" title="yes_ive_fundraised :: yes" type="checkbox" value="yes" uniqueid="617618647" /> <label>yes </label></td>
+</tr>
+<tr>
+<td>yes_ive_fundraised_online</td>
+<td><input id="yes_ive_fundraised_online" name="yes_ive_fundraised_online" title="yes_ive_fundraised_online :: yes" type="checkbox" value="yes" uniqueid="617618648" /> <label>yes </label></td>
+</tr>
+<tr>
+<td>yes_ive_fundraised_when</td>
+<td><textarea cols="20" id="yes_ive_fundraised_when" name="yes_ive_fundraised_when" rows="2" title="yes_ive_fundraised_when" validation="type:text" uniqueid="617618649"></textarea></td>
+</tr>
+<tr>
+<td>yes_ive_fundraised_at_event</td>
+<td><textarea cols="20" id="yes_ive_fundraised_at_event" name="yes_ive_fundraised_at_event" rows="2" title="yes_ive_fundraised_at_event" validation="type:text" uniqueid="617618650"></textarea></td>
+</tr>
+<tr>
+<td>z_why_join_team_americares</td>
+<td><textarea cols="20" id="z_why_join_team_americares" name="z_why_join_team_americares" rows="2" title="z_why_join_team_americares" validation="type:text;required:true" uniqueid="617618651"></textarea></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td><input type="submit" value="Submit" />&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" /></td>
+</tr>
+</tbody>
+</table>

@@ -1,0 +1,92 @@
+
+
+
+
+<t:if test="length > 0">
+  <t:list>
+                                          <li class="timeline-inverted">
+                                              <div class="timeline-badge"><i class="glyphicon glyphicon-bullhorn"></i>
+                                              </div>
+                                              <div class="timeline-panel">
+                                                  <div class="timeline-heading">
+                                                      <h4 class="timeline-title">${title}
+                                                            <small class="pull-right text-muted">
+                                                              <i class="glyphicon glyphicon-time"></i> <t:value id="creationDate" format="1" ></t:value>
+                                                           </small>
+
+
+
+                                                      </h4>   
+                                                       
+                                                  </div>
+                                                  <div class="timeline-body">
+                                                    <t:if test="news_photo.length>0">
+                                                            <t:list id=news_photo>
+                                                                    <div class="col-md-4 pull-right">
+                                                                     <img src="${news_photo.url}" alt="image" class="img-responsive"/>
+                                                                   </div>
+                                                            </t:list>
+                                                    </t:if>
+                                                      <p>${paragraph1}</p>
+                                                      <p>${paragraph2}</p>
+                                                      <p>${paragraph3}</p>   
+
+
+                                                      <t:list id="file"><a href="${url}" target="_blank" class="btn btn-clear-black"> <i class="glyphicon glyphicon-download-alt"></i>&nbsp; Download</a></t:list>                                                     
+                                                  </div>
+                                              </div>
+                                          </li>
+
+ </t:list>   
+</t:if>
+
+
+
+
+
+
+
+
+
+
+<t:if test="length > 0">
+<div class="portfolio col-3 clearfix">
+<!-- portfolio item -->
+<t:list>
+<div class="portfolio-item four columns col-break-gap outershadow padding2">
+
+<!-- lightbox with image --> 
+<a class="img-link preload" href="${url}"  title="${title}">
+           <img src="${news_photo.url}" alt="${description}" class="scale-with-grid photoed" style="width:100%; overflow:hidden;"/> 
+
+</a>
+
+<h3 class="sans"><a href="${url}" target="_blank" style="font-size:16pt;">${title}</a></h3>
+<t:list id="file"><div class="smaller">
+         
+   Total Press Release File Size: <em> &nbsp; ${size}</em><br/>
+  </div>
+</t:list>
+
+
+<hr size="small">
+
+ <t:list id="news_photo"><a href="${url}" target="_blank" class="button button-blue">Download this Image</a></t:list>
+
+ <t:list id="file"><a href="${url}" target="_blank" class="button button-grey"> <img src="${fileIcon}">  Download the full .docx</a></t:list>
+
+
+<!-- end lightbox with image -->
+<!--
+<p>${paragraph1}
+</p><p>
+${paragraph2}
+</p>
+<t:list id="file"><img src="${url}"></t:list>-->
+</div>
+ </t:list>      
+<!-- end .portfolio-item -->
+</div>
+</t:if>
+
+

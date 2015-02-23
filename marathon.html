@@ -1,0 +1,1203 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title><t:value id="title">Title</t:value> : AmeriCares</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
+
+<!-- ================================================== 
+          Meta Data 
+    ================================================== -->  
+    <t:value id="meta.keywords">meta.keywords</t:value>
+      <t:value id="meta.description">meta.description</t:value>
+      <t:value id="meta.title">meta.title</t:value>
+      <meta name="reply-to" content="">
+      <meta name="copyright" content="2015">
+      <meta name="rating" content="General">
+    <!-- ================================================== 
+        Open Graph RDFa Share Data and Thumbnails for GCSE
+    ================================================== -->
+    <meta property="og:title" content="AmeriCares: ${title}" />
+      <meta property="og:description"  content="${description}">  
+      <meta property="og:url" content="${url}" /> 
+      <meta property="og:type" content="website" /> 
+      <meta property="og:image" content="${header_image.url}" />
+        <link rel="image_src" type="image/jpeg" href="${header_image.url}" />
+        <meta name="thumbnail" content="${header_image.url}" />
+      <meta property="og:site_name" content="AmeriCares" />
+      <meta property="fb:admins" content="1636505980" />
+    <!-- ================================================== 
+            Google+ 
+    ================================================== -->
+     <meta itemprop="name" content="AmeriCares: ${title}">
+      <meta itemprop="description" content="${summary}">
+      <meta itemprop="description" content="${metadescription}" />
+    <!-- ================================================== 
+            Favicons          // en.wikipedia.org/wiki/Favicon
+    ================================================== -->  
+   <link rel="shortcut icon" href="http://help.americares.org/refresh/images/favicon.ico?" type="image/vnd.microsoft.icon">
+      <link rel="shortcut icon" href="http://help.americares.org/refresh/images/favicon.png?" type="image/png">
+      <link rel="shortcut icon" href="http://help.americares.org/refresh/images/favicon.gif?" type="image/gif">
+      <link rel="shortcut icon" href="http://help.americares.org/refresh/images/favicon.ico?" type="image/x-icon" />
+      <link rel="apple-touch-icon" href="http://help.americares.org/refresh/images/apple-touch-icon.png?">
+      <link rel="apple-touch-icon" sizes="72x72" href="http://help.americares.org/refresh/images/apple-touch-icon-72x72.png?">
+      <link rel="apple-touch-icon" sizes="114x114" href="http://help.americares.org/refresh/images/apple-touch-icon-114x114.png?">
+  <!-- ================================================== 
+          Google Analytics
+  ================================================== -->
+      <!-- Begin Google Code  -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+        _gaq.push(['_require', 'inpage_linkid', pluginUrl]); 
+        _gaq.push(['_setAccount', 'UA-1929444-1']);
+        _gaq.push(['_setDomainName', 'americares.org']);
+        if (CONVIO.referrer.length != 0) {
+            _gaq.push(['_setReferrerOverride',CONVIO.referrer]);     
+        }
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+
+  </head>
+
+  <!-- ================================================== 
+          Begin Body
+  ================================================== -->
+  <body ontouchstart="" id="top">
+
+  <!-- ================================================== 
+    //////////////   Begin Convio CMS   /////////
+
+        <div class="templateComponent" id="body"></div> 
+     ================================================== -->
+
+
+
+       <style>
+ 
+                    html,
+                    body {
+                      height: 100%;
+                    }
+                    body {                
+                    /* min-height: 2000px;*/
+                    }
+
+
+                      .background-ltgrey, .background-ltgray {background-color: #eeeeee; }
+                      .background-grey, .background-gray {background-color: #999999; }
+                      .background-dkblue {background-color: #172c43;}
+                      .background-blue {background-color: #214291; }
+                      .background-ltblue {background-color: #4f84c5;}
+                      .background-green {background-color: #5c883c; }
+                      .background-ltgreen {background-color: #b4cc95;}
+                      .background-red {background-color: #e11d38;}
+                      .background-ltred, .background-pink {background-color: #f37579;}
+                      .background-orange {background-color: #e37026; }
+                      .background-ltorange {background-color: #fce5d2;}
+                      .background-yellow {background-color: #fbaf32;}
+                      .background-ltyellow {background-color: #ffd07b;}
+                      .background-white {background-color: white;}
+                      .background-black {background-color: black;}
+                      .strong, .thick {font-weight: 600 !important;}
+                      .thin, .narrow {font-weight: 300 !important;}
+                      .i, .em {font-style: italic !important;}
+                      .tiny {font-size: 10px;}
+                      .micro {font-size: 9px;}
+                      .padding1 {padding: 1%;}
+                      .padding2 {padding: 2%;}
+                      .padding3 {padding: 3%;}
+                      .padding5 {padding: 5%;}
+                      .padding10 {padding: 10%;}
+                      .text-white {color: white;}
+                      .text-darkblue {color: #214291;}
+                      .text-lightblue {color: #4f84c5;}
+                      
+
+
+
+                    /* Extra markup and styles for table-esque vertical and horizontal centering */
+                    .hero-wrapper {
+                      text-align: center;
+                      background-color: #573c45;
+                      background-image:url(i/nyc-marathon-hero-1.jpg);
+                      background-repeat:no-repeat;
+                      background-position:center center;
+                      z-index:340; 
+                      position:relative;
+                      color:#fff;
+                      text-shadow: 0 1px 3px rgba(0,0,0,.5);                  
+                      display: table;
+                      width: 100%;
+                      height: 100%; /* For at least Firefox */
+                      min-height: 100%;
+                      -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+                              box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+                       }
+                            .hero-wrapper-inner {
+                              display: table-cell;
+                              vertical-align: top;
+                            }
+                            .cover-container {
+                              margin-right: auto;
+                              margin-left: auto;
+                            }
+                            .cover {
+                              
+                            }
+                            .cover .btn-lg {
+                              padding: 10px 20px;
+                              font-weight: bold;
+                            }
+
+                            /* Padding for spacing */
+
+                          @media (min-width: 768px) {
+                                    .inner {
+                                      margin:115px 0;
+                                      padding:80px 0;
+                                    }
+                              }
+
+
+                    /*
+                     * Header
+                     */
+                    .masthead-brand {
+                      margin-top: 10px;
+                      margin-bottom: 10px;
+                    }
+
+                    .masthead-nav > li {
+                      display: inline-block;
+                    }
+                    .masthead-nav > li + li {
+                      margin-left: 20px;
+                    }
+                    .masthead-nav > li > a {
+                      padding-right: 0;
+                      padding-left: 0;
+                      font-size: 16px;
+                      font-weight: bold;
+                      color: #fff; /* IE8 proofing */
+                      color: rgba(255,255,255,.75);
+                      border-bottom: 2px solid transparent;
+                    }
+                    .masthead-nav > li > a:hover,
+                    .masthead-nav > li > a:focus {
+                      background-color: transparent;
+                      border-bottom-color: #a9a9a9;
+                      border-bottom-color: rgba(255,255,255,.25);
+                    }
+                    .masthead-nav > .active > a,
+                    .masthead-nav > .active > a:hover,
+                    .masthead-nav > .active > a:focus {
+                      color: #fff;
+                      border-bottom-color: #fff;
+                    }
+
+
+                    @media (min-width: 768px) {
+                      /* Pull out the header and footer */
+                      .masthead {
+                        position: absolute;
+                        top: 0;
+                      }
+                      .mastfoot {
+                        position: absolute;
+                        bottom: 0;
+                      }
+
+                      .masthead-brand {
+                        float: left;
+                      }
+                      .masthead-nav {
+                        float: right;
+                        padding:25px 0;
+                      }
+
+                      /* Start the vertical centering */
+                      .hero-wrapper-inner {
+                        vertical-align: middle;
+                      }
+                      /* Handle the widths */
+                      .masthead,
+                      .mastfoot {
+                        width: 100%; /* Must be percentage or pixels for horizontal alignment */
+                      }
+                    }
+
+                    @media (min-width: 992px) {
+                      .masthead,
+                      .mastfoot {
+                        width:1200px;
+                      }
+                    }
+
+                    /*
+                     * Footer
+                     */
+
+                    .mastfoot {
+                      color: #999; /* IE8 proofing */
+                      color: rgba(255,255,255,.5);
+                    }
+
+
+
+                    .btn-clear-black {color:#333; border-color: #333;text-decoration:none !important; border-width:2px; background-color:transparent; font-weight:bold;}
+                    .btn-clear-black.active {color:#fff; border-color: transparent; text-decoration:none !important; border-width:2px; background-color:#333; font-weight:bolder;}
+ 
+                    /*
+                     * SORT ME!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                     */   
+                    
+                   /* ======= Sectional  ===========*/         
+                    .sections {padding:60px 0;}           
+                    .subsections {padding:40px 0;}
+                    #races {z-index:340; position:relative; background-color:#4f84c5;}
+                    #profiles {min-height:800;}
+                    #join {background-image:url();}
+                    .sections#runners2 {padding:180px 0;}
+                    .section-image-wrapper {
+                      color:#fff;
+                      text-shadow: 0 1px 3px rgba(0,0,0,.5);    
+                      -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+                              box-shadow: inset 0 0 100px rgba(0,0,0,.5);                                    
+                      display: table;
+                      width: 100%;
+
+
+                       }
+
+
+                       .section-image-wrapper-inner {
+                                vertical-align: top;
+                              }
+
+
+                      .jumbotron.jumbotron-clear {
+                                background-color: transparent; 
+                                background-image: none;
+                              }   
+
+                    h1.cover-heading {font-family:Raleway, arial; font-weight:900; text-transform:uppercase;}
+
+                    .scroll-down {position:absolute; bottom:20px; width:100%; text-align:center;}
+                    .scroll-down .btn {
+                                width: 50px;
+                                height: 50px;
+                                padding: 0;
+                                border: 2px solid #fff;
+                                border-radius: 100%;
+                                font-size: 30px;
+                                line-height: 50px;
+                                letter-spacing: normal;
+                                color: #fff;
+                                -webkit-transition: all .5s;
+                                -moz-transition: all .5s;
+                                transition: all .5s;
+                              }
+
+
+                 /* ======= Group Buttons ===========*/
+                    .ui-group-buttons .or{position:relative;float:left;width:.3em;height:1.3em;z-index:3;font-size:12px}
+                    .ui-group-buttons .or:before{position:absolute;top:50%;left:50%;content:'or';background-color:#5a5a5a;margin-top:-.1em;margin-left:-.9em;width:1.8em;height:1.8em;line-height:1.55;color:#fff;font-style:normal;font-weight:400;text-align:center;border-radius:500px;-webkit-box-shadow:0 0 0 1px rgba(0,0,0,0.1);box-shadow:0 0 0 1px rgba(0,0,0,0.1);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+                    .ui-group-buttons .or:after{position:absolute;top:0;left:0;content:' ';width:.3em;height:2.84em;background-color:rgba(0,0,0,0);border-top:.6em solid #5a5a5a;border-bottom:.6em solid #5a5a5a}
+                    .ui-group-buttons .or.or-lg{height:1.3em;font-size:16px}
+                    .ui-group-buttons .or.or-lg:after{height:2.85em}
+                    .ui-group-buttons .or.or-sm{height:1em}
+                    .ui-group-buttons .or.or-sm:after{height:2.5em}
+                    .ui-group-buttons .or.or-xs{height:.25em}
+                    .ui-group-buttons .or.or-xs:after{height:1.84em;z-index:-1000}
+                    .ui-group-buttons{display:inline-block;vertical-align:middle}
+                    .ui-group-buttons:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+                    .ui-group-buttons .btn{float:left;border-radius:0}
+                    .ui-group-buttons .btn:first-child{margin-left:0;border-top-left-radius:.25em;border-bottom-left-radius:.25em;padding-right:15px}
+                    .ui-group-buttons .btn:last-child{border-top-right-radius:.25em;border-bottom-right-radius:.25em;padding-left:15px}
+
+
+
+                /* ======= Forms ===========*/
+
+
+                       @media (min-width: 768px) {                    
+                          .form-horizontal .control-label {text-align:left;}
+                        }
+                    input[type="checkbox"] {
+                        background-color:transparent;
+                      }
+                    .form-signin {
+                      max-width: 330px;
+                      padding: 15px;
+                      margin: 0 auto;
+                    }
+                    .form-signin .form-signin-heading,
+                    .form-signin .checkbox {
+                      margin-bottom: 10px;
+                    }
+                    .form-signin .checkbox {
+                      font-weight: normal;
+                    }
+                    .form-signin .form-control {
+                      position: relative;
+                      height: auto;
+                      -webkit-box-sizing: border-box;
+                         -moz-box-sizing: border-box;
+                              box-sizing: border-box;
+                      padding: 10px;
+                      font-size: 16px;
+                    }
+                    .form-signin .form-control:focus {
+                      z-index: 2;
+                    }
+                    .form-signin input[type="name"] {
+                      margin-bottom: -1px;
+                      border-bottom-right-radius: 0;
+                      border-bottom-left-radius: 0;
+                    }
+                    .form-signin input[type="email"] {
+                      margin-bottom: 10px;
+                      border-top-left-radius: 0;
+                      border-top-right-radius: 0;
+                    }
+
+                 
+
+
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="hero-wrapper">
+
+      <div class="hero-wrapper-inner">
+
+        <div class="cover-container container">
+
+          <div class="masthead clearfix">
+            <div class="cover clearfix">
+              <h3 class="masthead-brand"><img src="http://www.americares.org/assets/images/logos/amca-white-200px.png" alt="AmeriCares"></h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="http://www.americares.org"><span class="glyphicon glyphicon-home"></span> &nbsp;AmeriCares</a></li>
+                  <li><a href="#join"><span class="glyphicon glyphicon-edit"></span> &nbsp;Registration</a></li>
+                  <li><a href="mailto:hdonaldson@americares.org"><span class="glyphicon glyphicon-envelope"></span> &nbsp;Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner">
+            <div class="jumbotron" style="background-color:transparent;">
+              <h1 class="cover-heading">Run with Team AmeriCares</h1>
+              <p class="lead">Join Team AmeriCares to help us save lives and build healthier futures for people in crisis in the United States and around the world – one mile at a time!
+              </p>
+
+
+             <form class="form-signin">
+                <h2 class="form-signin-heading">Want to Learn More?</h2>
+
+                <label for="inputName" class="sr-only">Name</label>
+                <input type="name" id="inputName" class="form-control" placeholder="Your Name" name="named" required>
+
+                <label for="inputEmail" class="sr-only">Email</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="emailed" required autofocus>
+
+
+                <!--<div class="checkbox">
+                  <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                  </label>
+                </div>-->
+                  <div class="ui-group-buttons">
+                            <button type="button" type="submit" class="btn btn-primary btn-lg">Contact Me
+                            </button>
+                            <div class="or or-lg"></div>
+                            <a href="#join" type="button" class="btn btn-warning btn-lg">Register Below</a>
+                  </div>
+              </form>
+
+
+
+
+
+                  <!--<h2>
+                       Next Marathon is<span class="counter">45</span> days away!
+                          <span>We have </span><span class="counter">6</span> available spots
+                  </h2>-->
+              </div>
+          </div>
+
+         <!--<div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>-->
+
+        </div>
+
+                  <div class="scroll-down">
+                    <a class="btn" href="#about"><span class="glyphicon glyphicon-chevron-down small"></span></a>
+                </div>
+
+      </div>
+
+    </div>
+
+
+
+<!-- /////////////////////////////////////////////////////// -->
+
+<div id="nav2-wrapper">
+    <div id="nav2" class="navbar2" >
+      <ul id="nav-one">
+          <li class="current"><a href="#top"><span class="glyphicon glyphicon-chevron-up"></span></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#races">Races</a></li>
+          <li><a href="#join">Register</a></li>  
+          <li><a href="#team">Team Spirit</a></li>                   
+        </ul>
+    </div>
+</div>
+
+
+
+
+<!-- /////////////////////////////////////////////////////// -->
+<div class="sections" id="about-us">
+    <div class="container withtop" >
+
+          <!-- START THE FEATURETTES -->
+      <span id="about">
+          <hr class="featurette-divider">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Racing <span class="text-muted">With a Purpose</span></h2>
+              <p class="lead">Team AmeriCares supports that mission by raising awareness and funds to support our emergency relief and ongoing global health programs. Each year, members of Team AmeriCares come together to raise hundreds of thousands of dollars – join the team and start making an impact. Together we can raise more funds and help more people in 2015.</p>
+              <p><a href="#">Learn more about our fundraising <span class="glyphicon glyphicon-new-window"></span></a></p>
+            </div>
+            <div class="col-md-5">
+              <img class="featurette-image img-responsive" src="i/jon-marty-high-five-race-2013-500px.jpg" alt="Racing">
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-5">
+              <img class="featurette-image img-responsive" src="i/hopeful-children-500px.jpg" alt="Saving Lives">
+            </div>
+            <div class="col-md-7">
+              <h2 class="featurette-heading">Saving Lives <span class="text-muted">Giving Hope.</span></h2>
+              <p class="lead">Since our founding, AmeriCares has provided more than $12 billion in aid and responded to humanitarian crises large and small. Each year we work with partners in more than 90 countries, putting critically needed medicine and supplies in the hands of health workers and helping them to develop innovative, sustainable health improvements in their communities. </p>
+               <p><a href="#">Learn more about our work <span class="glyphicon glyphicon-new-window"></span></a></p>
+            </div>
+          </div>
+    </div>
+</div>
+<!-- /////////////////////////////////////////////////////// -->
+
+
+
+
+
+
+
+<!-- /////////////////////////////////////////////////////// -->
+
+
+
+<div class="sections section-image-wrapper" id="races">
+      <div class="container section-image-wrapper-inner">
+          <div class="col-md-4">
+                        <h1 class="cover-heading">Race With Us</h1>
+                        <p class="lead">AmeriCares is an Official Charity Partner for races across the United States. Check back as we add races throughout the year.
+                        </p>
+                        <p>
+                          <em class="i">
+                        Here’s our line-up so far in 2015:
+                         </em>
+                        </p>
+          </div>
+
+
+          <div class="carousel-fullwidth col-md-8">
+                    <!-- ==== CAROUSEL ===== -->
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                          </ol>
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+
+
+                            <div class="item active">
+                               <img class="featurette-image img-responsive" src="i/shamrock-shuffle-banner-1500x700.jpg" alt="shamrock">
+                              <div class="carousel-caption">
+                               <h3>March 28, 2015</h3> Bank of America Shamrock Shuffle8K <br/>Chicago, IL.
+
+                              </div>
+                            </div>
+                            <div class="item">
+                                    <img class="featurette-image img-responsive" src="i/tcs-new-york-race-banner-1500x700.jpg" alt="TCS">
+                              <div class="carousel-caption">
+                               <h3> November 1, 2015 </h3> TCS NYC Marathon  <br/> New York, NY
+
+                              </div>
+                            </div>
+                             
+
+
+                          </div>
+
+                          <!-- Controls -->
+                          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                 <!-- ==== CAROUSEL ===== -->
+
+          </div>
+
+      </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+<!-- /////////////////////////////////////////////////////// -->
+<div class="sections" id="join" style="background-color:#cecece;">
+    <div class="container withtop" >
+
+      <div class="jumbotron" style="background-color:transparent;">
+                    <h1 class="cover-heading">Join the Team</h1>
+                    <p class="lead">If you are interested in joining Team AmeriCares this year, please complete this simple application and tell us about yourself and your goals: 
+                    </p>
+      </div>
+
+
+
+           <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <form class="form-horizontal" role="form">
+                <fieldset>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="textinput">Your Name</label>
+                    <div class="col-sm-3">
+                      <input type="text" placeholder="First" class="form-control">
+                    </div>
+
+                    
+                    <div class="col-sm-2">
+                      <input type="text" placeholder="Middle" class="form-control">
+                    </div>
+
+                    
+                    <div class="col-sm-5">
+                      <input type="text" placeholder="Last" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="textinput">Address</label>
+                    <div class="col-sm-10">
+                      <input type="text" placeholder="Address Line 1" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="textinput">Apt./Unit #</label>
+                    <div class="col-sm-10">
+                      <input type="text" placeholder="Address Line 2" class="form-control">
+                    </div>
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="textinput">City</label>
+                    <div class="col-sm-3">
+                      <input type="text" placeholder="City" class="form-control">
+                    </div>
+                    <label class="col-sm-1 control-label" for="textinput">State</label>
+                    <div class="col-sm-2">
+                      <input type="text" placeholder="State" class="form-control">
+                    </div>
+                    <label class="col-sm-1 control-label" for="textinput">Zip</label>
+                    <div class="col-sm-3">
+                      <input type="text" placeholder="Post Code" class="form-control">
+                    </div>                   
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="textinput">Email</label>
+                    <div class="col-sm-10">
+                      <input type="text" placeholder="Email" class="form-control">
+                    </div>
+                  </div>
+
+
+                  <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label" for="textinput">Email</label>
+                    <div class="col-sm-10">
+                      <input type="text" placeholder="Email" class="form-control"> 
+                    </div>
+                  </div>
+
+                  <!-- Alternative Inputs -->
+                  <div class="form-group">
+                      <label class="col-sm-2 control-label" for="gender">Gender</label>
+                      <div class="col-sm-4">
+                            <select id="gender" class="form-control">
+                                <option value="0" selected>Unselected</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                            </select>
+                      </div>
+
+                      <label class="col-sm-3 control-label" for="textinput">Date of Birth</label>
+                      <div class="col-sm-3">
+                        <input type="text" placeholder="DD/MM/YYYY" class="form-control"> 
+                      </div>
+                  </div>
+                 <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-3 control-label" for="textinput">Occupation/Employer</label>
+                    <div class="col-sm-9">
+                      <input type="text" placeholder="" class="form-control"> 
+                    </div>
+                  </div>
+
+                 <!-- Text input-->
+                  <div class="form-group">
+                    <label class="col-sm-3 control-label" for="textinput">How many marathons have you run?</label>
+                    <div class="col-sm-2">
+                      <input type="text" placeholder="" class="form-control"> 
+                    </div>
+                  </div>
+
+
+
+              <hr class="featurette-divider">
+
+
+                 <!-- Text input-->
+                  <div class="form-group">
+                     <div class="checkbox col-sm-1">
+                      <input type="checkbox" class="form-control">
+                    </div>
+                    <div class="col-sm-4">                   
+                      <label class="control-label">Yes - I've run the New York City Marathon</label>
+                    </div>
+                    <label class="col-sm-3 control-label" for="textinput">If yes, when?</label>
+                    <div class="col-sm-4">
+                      <input type="text" placeholder="" class="form-control"> 
+                    </div>
+                </div>
+
+                 <!-- Text input-->
+                  <div class="form-group">
+                     <div class="checkbox col-sm-1">
+                      <input type="checkbox" class="form-control">
+                    </div>
+                    <div class="col-sm-4">                   
+                      <label class="control-label">Yes - I've run for Team AmeriCares before</label>
+                    </div>
+                    <label class="col-sm-3 control-label" for="textinput">If yes, which race (and what year?)</label>
+                    <div class="col-sm-4">
+                      <input type="text" placeholder="" class="form-control"> 
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+
+                 <!-- Text input-->
+                  <div class="form-group">
+                    <div class="col-sm-5">
+                          <div style="margin-bottom:40px;">
+                             <div class="checkbox col-sm-2">
+                              <input type="checkbox" class="form-control">
+                            </div>
+                            <div class="col-sm-10">                   
+                              <label class="control-label">Yes - I have fundraising experience.</label>
+                            </div>
+                          </div> 
+                            <div class="checkbox col-sm-2">
+                              <input type="checkbox" class="form-control">
+                            </div>
+                            <div class="col-sm-10">                   
+                              <label class="control-label">Yes - I have fundraising experience <u>online</u>.</label>
+                            </div>      
+            
+                    </div> 
+                     <div class="col-sm-7">
+                           <label class="col-sm-12 control-label" for="textinput">If yes, when was the last time you fundraised online?</label>
+                          <div class="col-sm-12">
+                              <textarea id="fundraising-when" name="fundraising-when" class="form-control" placeholder="" rows="2"></textarea>
+                          </div>
+                           <label class="col-sm-12 control-label" for="textinput">And for what event?
+                           </label>
+                          <div class="col-sm-12">
+                              <textarea id="fundraising-event" name="fundraising-event" class="form-control" placeholder="" rows="2"></textarea>
+                          </div>                         
+                      </div>
+                </div>
+
+
+
+                 <!-- Text input-->
+                  <div class="form-group">
+                      <label class="col-sm-12 control-label" for="textinput">And lastly, why would you want to join Team AmeriCares?</label>
+                      <div class="col-sm-12">
+                        <textarea id="whyjoin" name="whyjoin" class="form-control" placeholder="" rows="5"></textarea>
+                    </div>
+                  </div>
+
+
+
+                <hr class="featurette-divider">
+
+                  <div class="form-group">
+                    <div class="text-center">
+                        <div class="padding3">
+                           <button type="submit" class="btn btn-primary btn-lg">Submit This Application</button>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-link">Cancel and Clear Form</button>
+
+                    </div>
+                  </div>
+
+                </fieldset>
+              </form>
+            </div><!-- /.col-lg-12 -->
+        </div><!-- /.row -->
+
+
+
+    </div>
+</div>
+<!-- /////////////////////////////////////////////////////// -->
+
+
+
+
+<!-- /////////////////////////////////////////////////////// -->
+<div class="container-fluid" id="team">
+
+<div class="row">
+  <div class="col-sm-4">
+    <img src="i/Michael-Marathon-Photo-sidebar-600px.jpg" class="img-responsive">
+  </div>
+  <div class="col-sm-8 withtop" >
+
+      <div class="jumbotron col-md-12" style="background-color:transparent;">
+                    <h1 class="cover-heading">Team Spirit</h1>
+                    <p class="lead">Team AmeriCares is a growing team of enthusiastic, committed runners who are passionate about endurance sports and AmeriCares lifesaving work worldwide. We set our sights high, support each other and have a lot of fun along the way. 
+                    </p>
+      </div>
+
+
+      <div class="row">
+        <div class="col-md-4 col-md-offset-2">
+          <p>Team members receive team- and race-specific gear and join a community of race enthusiasts who train and run with us to save lives and build healthier futures for people in crisis all over the world! 
+          </p>
+          <p>
+          Our team captain is AmeriCares President and CEO, Michael J. Nyenhuis, an experienced marathoner who exemplifies our team spirit. Between runs, Michael hosts team gatherings and post tips and stories to get our team ready for race day!
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <img class="featurette-image img-responsive" src="i/teamspirit-holly-500px.jpg" alt="Team Spirit">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center">
+
+         <h3>Rather Watch Instead? Join our Cheer Section!</h3>
+         <p> Contact us for more information</p>
+       </div>
+      </div>
+
+
+  </div>
+</div>
+<!-- ////////////////////////////////////////////////////// -->
+
+<hr class="featurette-divider" id="our-runners">
+
+
+
+<!-- ////////////////////////////////////////////////////// -->
+<div class="subsections" id="profiles">
+
+    <div class="container">
+     <div class="row"> 
+         <div class="text-center">
+           <h1 class="cover-heading">Who's On Our Team?</h1>
+                <div class="filterbuttons" style="padding:10px 0 40px;">
+                        <button class="filter btn btn-clear-black" data-filter="all">See All</button>
+                        <button class="filter btn btn-clear-black" data-filter=".category-1">Shamrock Shuffle</button>
+                        <button class="filter btn btn-clear-black" data-filter=".category-2">NYC Marathon</button>
+                  </div>
+         </div>
+      </div>
+     <div class="row withtop">
+              <div class="links row withtop" id="MixCategories">
+                <div class="col-lg-4 mix category-2 text-center" data-my-order="2">
+                  <img class="img-circle" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                  <h4>Runner A</h4>
+                  <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                  <p><a class="btn btn-default" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View Profile &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                 <div class="col-lg-4 mix category-1 text-center" data-my-order="1">
+                  <img class="img-circle" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                  <h4>Michael Nyenhuis</h4>
+                  <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                  <p><a class="btn btn-default" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View Profile &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->        
+                <div class="col-lg-4 mix category-1 text-center" data-my-order="3">
+                  <img class="img-circle" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                  <h4>Runner B</h4>
+                  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                  <p><a class="btn btn-default" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View Profile &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 mix category-2 text-center" data-my-order="4">
+                  <img class="img-circle" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                  <h4>Runner C</h4>
+                  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                  <p><a class="btn btn-default" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View Profile &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+              </div><!-- /.row -->
+
+
+          </div>
+  </div>
+</div>
+<!-- /////////////////////////////////////////////////////// -->
+
+
+
+
+<!-- /////////////////////////////////////////////////////// -->
+<div class="sections image-barrier" id="runners2" style="background-image:url(i/team-runners-hero-image--crisp-800pxpx.jpg); background-position:center center; background-repeat:no-repeat;">
+
+</div>
+
+
+
+
+<!-- /////////////////////////////////////////////////////// -->
+<footer class="footer" id="footer">
+
+<div class="container text-center" >
+            <div class="row social">
+                <div class="col-lg-12">
+                      <div class="addthis_sharing_toolbox"></div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-lg-12">
+                    <p class="small">&copy; 2015 AmeriCares</p>
+                </div>
+            </div>
+        </div>
+
+</footer>
+
+
+
+    <!-- ================================================== 
+              Modal Window Hidden
+    ================================================== -->
+
+ <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+      <!-- The container for the modal slides -->
+      <div class="slides"></div>
+      <!-- Controls for the borderless lightbox -->
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+
+      <!-- The modal dialog, which will be used to wrap the lightbox content -->
+      <div class="modal fade">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title"></h4>
+                  </div>
+                  <div class="modal-body next"></div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default pull-left prev">
+                          <i class="glyphicon glyphicon-chevron-left"></i>
+                          Previous
+                      </button>
+                      <button type="button" class="btn btn-primary next">
+                          Next
+                          <i class="glyphicon glyphicon-chevron-right"></i>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- The modal dialog, which will be used to wrap the lightbox content -->
+  </div>   
+
+   
+
+
+
+
+
+
+  <!-- ================================================== 
+    //////////////   End Convio CMS   /////////
+  ================================================== -->
+    <!-- ================================================== 
+              Scripts
+    ================================================== -->
+
+    <!-- Bootstrap Core -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Custom 
+    =================================================== -->
+      <!-- Custom styles for this template -->
+    <script src="plugins/docs.min.js"></script>\
+
+      <!--[if IE 9]>
+            <script src="plugins/jquery.html5-placeholder-shim.js"></script>
+      <![endif]--> 
+
+          
+    <!--<script>
+            $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').focus()
+          })
+    </script>-->
+    <script src="plugins/jquery.mixitup.min.js"></script>   
+           <style>#MixCategories .mix{ display: none;}</style> 
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="plugins/jquery.nav.js"></script>
+
+      <style>
+           #nav-one {
+              margin-bottom:60px;
+              background: #000;
+              list-style: none;
+              overflow: hidden;
+              padding-top: 9px;
+             /*position: fixed;*/
+             height:60px;
+              text-align: center;
+              z-index:1982;
+            }
+            
+           #nav-one ol, ul  {
+              margin:0 0 0 0;
+           }  
+            #nav-one li {
+              display: inline-block;
+              margin-bottom: 0;
+
+            }
+            #nav-one a {
+              background: #000;
+              color: #fff;
+              display: block;
+              padding: 10px;
+            }
+            #nav-one a:hover {
+              background: none;
+              color: #dedede;
+            }
+            #nav-one .current a {
+              background: #fff;
+              color: #000;
+            }
+
+            #nav-one.affix {
+                position: fixed;
+                top: 0px;
+                width: 100%;
+             }
+
+
+
+      </style>
+
+  <!--  <script src="plugins/jquery.counterup.min.js"></script> -->
+
+    <!-- <script src="plugins/jquery.fitvids.js"></script> -->
+          <style>.fluid-width-video-wrapper {display:block;}</style>
+
+
+  <!--  <script src="plugins/jquery.fs.wallpaper.js"></script>
+          <link href="plugins/jquery.fs.wallpaper.css" rel="stylesheet">
+          <style>
+            .wallpapered { background: #eee; margin: 0 0 20px; padding-top:0; width: 100%; }
+            .wallpapered.bar { margin: 0; }
+          </style>
+-->
+
+       <link rel="stylesheet" href="plugins/blueimp-gallery.min.css">
+      <!-- <link rel="stylesheet" href="http://help.americares.org/refresh-afc/bower_components/sass-bootstrap-compass/dist/css/bootstrap-image-gallery.min.css">-->
+
+    <script src="plugins/jquery.blueimp-gallery.min.js"></script>
+     <!--   <script src="http://help.americares.org/refresh-afc/bower_components/sass-bootstrap-compass/dist/js/blueimp-bootstrap-image-gallery.min.js"></script>-->
+
+
+
+    <script>
+          $(function(){
+              $('#MixCategories').mixItUp();  
+
+             // $('.counter').counterUp({
+             //       delay: 15,
+             //       time: 3000
+             //   });
+
+          //   $(".fitvid").fitVids({customselector:"#videocontainer"});
+
+          //  $(".bg-marathon-hero").wallpaper({
+          //    source: "i/nyc-marathon-hero-1.jpg"
+          //  });
+
+
+
+
+
+             $('#nav-one').onePageNav({
+                          changeHash: true
+                        });
+              //if an issue on iOS, fix on git
+              $('#nav-wrapper').height($("#nav-one").height());
+              
+              $('#nav-one').affix({
+                  offset: { top: $('#nav-one').offset().top }
+              });
+
+
+          });
+
+    </script> 
+   <script>
+       document.getElementById('links').onclick = function (event) {
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+    };
+      /*Note: Generalized Detection of Mobile to use for deactivation of JQuery plugins on those platforms.*/
+              var isMobile = false;
+          
+              if( navigator.userAgent.match(/Android/i) || 
+                navigator.userAgent.match(/webOS/i) ||
+                 navigator.userAgent.match(/iPhone/i) || 
+                navigator.userAgent.match(/iPad/i)|| 
+                navigator.userAgent.match(/iPod/i) || 
+                navigator.userAgent.match(/BlackBerry/i)){
+                        
+                isMobile = true;
+                      
+              }
+              
+              /*iOS5 fixed-menu fix for bottom Navigation issue*/
+              var iOS5 = false;
+              
+              if (navigator.userAgent.match(/OS 5(_\d)+ like Mac OS X/i)){
+              
+                iOS5 = true;
+              
+              }
+            
+              
+          </script>
+          
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54db78b85952bf15" async="async"></script>-->
+     
+
+    <!-- ================================================== 
+            IE Forcings
+    ================================================== -->  
+
+
+
+      <!--[if IE 8]>
+        <link rel="stylesheet" href="">
+      <![endif]-->  
+
+      <!--[if IE 7]>
+        <link rel="stylesheet" href="">
+      <![endif]-->
+
+
+    </body>
+</html>

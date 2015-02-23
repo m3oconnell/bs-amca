@@ -1,0 +1,193 @@
+     <!-- beware, Convio is ass-tastic and will remove Submission data from the sidebar if using this form. what now? -->
+
+
+           <div class="frontleaf-textfield templateFormField">&nbsp;</div>
+              <form class="form-horizontal" role="form">
+                <fieldset>
+
+                  <!-- Text input-->
+                  <div class="form-group clearfix">
+                    <label class="col-sm-2 control-label" for="textinput">Your Name</label>
+                    <div class="col-sm-3">
+                      <input type="text" placeholder="First" class="form-control" id="first" name="first" title="First" uniqueid="617629830" validation="type:text;required:true">
+                    </div>
+
+                    
+                    <div class="col-sm-2">
+                      <input type="text" placeholder="Middle" class="form-control" id="middle" name="middle" title="Middle" uniqueid="617629831" validation="type:text;">
+                    </div>
+
+                    
+                    <div class="col-sm-5">
+                      <input type="text" placeholder="Last" class="form-control" id="last" name="last" title="Last" uniqueid="617629832" validation="type:text;required:true">
+                    </div>
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group clearfix">
+                    <label class="col-sm-2 control-label" for="textinput">Address</label>
+                    <div class="col-sm-10">
+                      <input type="text" placeholder="Address Line 1" class="form-control" id="address1" name="address1" title="Address" uniqueid="617629833" validation="type:text;required:true">
+                    </div>
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group clearfix">
+                    <label class="col-sm-2 control-label" for="textinput">Apt./Unit #</label>
+                    <div class="col-sm-10">
+                      <input type="text" placeholder="Address Line 2" class="form-control" id="address2" name="address2" title="Apt./Unit #" uniqueid="617629834" validation="type:text">
+                    </div>
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group clearfix">
+                    <label class="col-sm-2 control-label" for="textinput">City</label>
+                    <div class="col-sm-3">
+                      <input type="text" placeholder="City" class="form-control" id="city" name="city" title="City" uniqueid="617629835" validation="type:text;required:true">
+                    </div>
+                    <label class="col-sm-1 control-label" for="textinput">State</label>
+                    <div class="col-sm-2">
+                      <input type="text" placeholder="State" class="form-control" id="state" name="state" title="State" uniqueid="617629836" validation="type:text;required:true">
+                    </div>
+                    <label class="col-sm-1 control-label" for="textinput">Zip</label>
+                    <div class="col-sm-3">
+                      <input type="text" placeholder="Post Code" class="form-control" id="zip" name="zip" title="Zip" uniqueid="617629837" validation="type:number;required:true;">
+                    </div>                   
+                  </div>
+
+                  <!-- Text input-->
+                  <div class="form-group clearfix">
+                    <label class="col-sm-2 control-label" for="textinput">Email</label>
+                    <div class="col-sm-10">
+                      <input type="text" placeholder="Email" class="form-control" id="email" name="email" title="email" uniqueid="617629838" validation="type:email;required:true;sendConfirm:true"> 
+                    </div>
+                  </div>
+
+                  <!-- Alternative Inputs -->
+                  <div class="form-group clearfix">
+                      <label class="col-sm-2 control-label" for="gender">Gender</label>
+                      <div class="col-sm-4">
+                            <select id="gender" name="gender" title="Gender" class="form-control" uniqueid="617629839" validation="type:string">
+                                <option label="Unselected" value="unselected">Unselected</option><option label="Male" value="male">Male</option><option label="Female" value="female">Female</option>
+                            </select>
+                      </div>
+
+                      <label class="col-sm-3 control-label" for="textinput">Date of Birth</label>
+                      <div class="col-sm-3">
+                        <input type="text" placeholder="DD/MM/YYYY" class="form-control" id="date_of_birth" name="date_of_birth" title="Date of Birth" uniqueid="617629840" validation="type:text;required:true"> 
+                      </div>
+                  </div>
+                 <!-- Text input-->
+                  <div class="form-group clearfix">
+                    <label class="col-sm-3 control-label" for="textinput">Occupation/Employer</label>
+                    <div class="col-sm-9">
+                      <input type="text" placeholder="" class="form-control" id="occupation" name="occupation" title="Occupation"  uniqueid="617629841" validation="type:text;required:true"> 
+                    </div>
+                  </div>
+
+                 <!-- Text input-->
+                  <div class="form-group clearfix">
+                    <label class="col-sm-3 control-label" for="textinput">How many marathons have you run?</label>
+                    <div class="col-sm-2">
+                      <input type="text" placeholder="" class="form-control" uniqueid="617629842"  id="marathons_ran" name="marathons_ran" title="How Many Marathons"  validation="type:text;required:true;"> 
+                    </div>
+                  </div>
+
+
+
+              <hr class="featurette-divider">
+
+
+                 <!-- Text input-->
+                  <div class="form-group clearfix">
+                     <div class="checkbox col-sm-1">
+                      <input type="checkbox" class="form-control"  id="yes_ran_NYC" name="yes_ran_NYC" title="Yes-I've Run :: yes" uniqueid="617629843" value="yes">
+                    </div>
+                    <div class="col-sm-4">                   
+                      <label class="control-label" uniqueid="">Yes - I've run the New York City Marathon</label>
+                    </div>
+                    <label class="col-sm-3 control-label" for="textinput">If yes, when?</label>
+                    <div class="col-sm-4">
+                      <input type="text" placeholder="" class="form-control" uniqueid="617629844" id="yes_ran_nyc_when" name="yes_ran_nyc_when" title="If yes, When?" validation="type:text;"> 
+                    </div>
+                </div>
+
+                 <!-- Text input-->
+                  <div class="form-group clearfix">
+                     <div class="checkbox col-sm-1">
+                      <input type="checkbox" class="form-control" id="yes_ran_with_AMCA" name="yes_ran_with_AMCA" title="Yes-I've run for Team Amca :: yes" uniqueid="617629845" value="yes">
+                    </div>
+                    <div class="col-sm-4">                   
+                      <label class="control-label">Yes - I've run for Team AmeriCares before</label>
+                    </div>
+                    <label class="col-sm-3 control-label" for="textinput">If yes, which race (and what year?)</label>
+                    <div class="col-sm-4">
+                      <input type="text" placeholder="" class="form-control" id="yes_ran_with_AMCA_when" name="yes_ran_with_AMCA_when" title="If yes, Which Race?" uniqueid="617629846" value="" validation="type:text"> 
+                    </div>
+                </div>
+
+                <hr class="featurette-divider">
+
+
+                 <!-- Text input-->
+                  <div class="form-group clearfix">
+                    <div class="col-sm-5">
+                          <div style="margin-bottom:40px;">
+                             <div class="checkbox col-sm-2">
+                              <input type="checkbox" class="form-control" id="yes_ive_fundraised" name="yes_ive_fundraised" title="yes-funraised :: yes" uniqueid="617618647" value="yes">
+                            </div>
+                            <div class="col-sm-10">                   
+                              <label class="control-label">Yes - I have fundraising experience.</label>
+                            </div>
+                          </div> 
+                          <div style="margin-bottom:40px;">
+                            <div class="checkbox col-sm-2">
+                              <input id="yes_ive_fundraised_online" name="yes_ive_fundraised_online" title="yes i have fundraised online :: yes"  type="checkbox" class="form-control" uniqueid="617629848" value="yes">
+                            </div>
+                            <div class="col-sm-10">                   
+                              <label class="control-label">Yes - I have fundraising experience <u>online</u>.</label>
+                            </div> 
+                          </div>     
+            
+                    </div> 
+                     <div class="col-sm-7">
+                           <label class="col-sm-12 control-label" for="textinput">If yes, when was the last time you fundraised online?</label>
+                          <div class="col-sm-12">
+                              <textarea cols="20" id="yes_ive_fundraised_when" name="yes_ive_fundraised_when" rows="2" title="if yes, when last time you fundraised" class="form-control" placeholder=""  uniqueid="617629849" validation="type:text"></textarea>
+                          </div>
+                           <label class="col-sm-12 control-label" for="textinput">And for what event?
+                           </label>
+                          <div class="col-sm-12">
+                              <textarea cols="20" id="yes_ive_fundraised_at_event" name="yes_ive_fundraised_at_event" rows="2" title="For what Event" class="form-control" placeholder="" uniqueid="617629850" validation="type:text"></textarea>
+                          </div>                         
+                      </div>
+                </div>
+
+
+
+                 <!-- Text input-->
+                  <div class="form-group clearfix">
+                      <label class="col-sm-12 control-label" for="textinput">And lastly, why would you want to join Team AmeriCares?</label>
+                      <div class="col-sm-12">
+                        <textarea cols="20" id="z_why_join_team_americares" name="z_why_join_team_americares" rows="2" title="why join team americares"  class="form-control" placeholder=""  uniqueid="617629851" validation="type:text;required:true"></textarea>
+                    </div>
+                  </div>
+
+
+
+                <hr class="featurette-divider">
+
+                  <div class="form-group clearfix">
+                    <div class="text-center">
+                        <div class="padding3">
+                           <button type="submit" class="btn btn-primary btn-lg" type="submit" value="Submit">Submit This Application</button>
+                        </div>
+                        
+                        <button type="reset" value="Reset" class="btn btn-link">Cancel and Clear Form</button>
+
+                    </div>
+                  </div>
+
+                </fieldset>
+              </form>
+  

@@ -1,0 +1,1036 @@
+<!-- CSS -->
+       <style>
+ 
+                    html,
+                    body {
+                      height: 100%;
+                    }
+                    body {                
+                    /* min-height: 2000px;*/
+                    }
+
+
+                      .background-ltgrey, .background-ltgray {background-color: #eeeeee; }
+                      .background-grey, .background-gray {background-color: #999999; }
+                      .background-dkblue {background-color: #172c43;}
+                      .background-blue {background-color: #214291; }
+                      .background-ltblue {background-color: #4f84c5;}
+                      .background-green {background-color: #5c883c; }
+                      .background-ltgreen {background-color: #b4cc95;}
+                      .background-red {background-color: #e11d38;}
+                      .background-ltred, .background-pink {background-color: #f37579;}
+                      .background-orange {background-color: #e37026; }
+                      .background-ltorange {background-color: #fce5d2;}
+                      .background-yellow {background-color: #fbaf32;}
+                      .background-ltyellow {background-color: #ffd07b;}
+                      .background-white {background-color: white;}
+                      .background-black {background-color: black;}
+                      .strong, .thick {font-weight: 600 !important;}
+                      .thin, .narrow {font-weight: 300 !important;}
+                      .i, .em {font-style: italic !important;}
+                      .tiny {font-size: 10px;}
+                      .micro {font-size: 9px;}
+                      .padding1 {padding: 1%;}
+                      .padding2 {padding: 2%;}
+                      .padding3 {padding: 3%;}
+                      .padding5 {padding: 5%;}
+                      .padding10 {padding: 10%;}
+                      .text-white {color: white;}
+                      .text-darkblue {color: #214291;}
+                      .text-lightblue {color: #4f84c5;}
+                      
+
+
+
+                    /* Extra markup and styles for table-esque vertical and horizontal centering */
+                    .hero-wrapper {
+                      text-align: center;
+                      background-color: #573c45;
+                      background-repeat:no-repeat;
+                      background-position:center center;
+                      background-image:url(i/nyc-marathon-hero-1.jpg);
+                      z-index:340; 
+                      position:relative;
+                      color:#fff;
+                      text-shadow: 0 1px 3px rgba(0,0,0,.5);                  
+                      display: table;
+                      width: 100%;
+                      height:100px; /* For at least Firefox */
+                       }
+                            .hero-wrapper-inner {
+                              display: table-cell;
+                              vertical-align: top;
+                            }
+                            .cover-container {
+                              margin-right: auto;
+                              margin-left: auto;
+                            }
+                            .cover {
+                              
+                            }
+                            .cover .btn-lg {
+                              padding: 10px 20px;
+                              font-weight: bold;
+                            }
+
+                            /* Padding for spacing */
+
+                          @media (min-width: 768px) {
+                                    .inner {
+                                      margin:90px 0;
+                                      padding:80px 0;
+                                    }
+                              }
+
+
+                    /*
+                     * Header
+                     */
+                    .masthead-brand {
+                      margin-top: 10px;
+                      margin-bottom: 10px;
+                    }
+
+                    .masthead-nav > li {
+                      display: inline-block;
+                    }
+                    .masthead-nav > li + li {
+                      margin-left: 20px;
+                    }
+                    .masthead-nav > li > a {
+                      padding-right: 0;
+                      padding-left: 0;
+                      font-size: 16px;
+                      font-weight: bold;
+                      color: #fff; /* IE8 proofing */
+                      color: rgba(255,255,255,.75);
+                      border-bottom: 2px solid transparent;
+                    }
+                    .masthead-nav > li > a:hover,
+                    .masthead-nav > li > a:focus {
+                      background-color: transparent;
+                      border-bottom-color: #a9a9a9;
+                      border-bottom-color: rgba(255,255,255,.25);
+                    }
+                    .masthead-nav > .active > a,
+                    .masthead-nav > .active > a:hover,
+                    .masthead-nav > .active > a:focus {
+                      color: #fff;
+                      border-bottom-color: #fff;
+                    }
+
+
+                    @media (min-width: 768px) {
+                      /* Pull out the header and footer */
+                      .masthead {
+                        position: absolute;
+                        top: 0;
+                      }
+                      .mastfoot {
+                        position: absolute;
+                        bottom: 0;
+                      }
+
+                      .masthead-brand {
+                        float: left;
+                      }
+                      .masthead-nav {
+                        float: right;
+                        padding:25px 0;
+                      }
+
+                      /* Start the vertical centering */
+                      .hero-wrapper-inner {
+                        vertical-align: middle;
+                      }
+                      /* Handle the widths */
+                      .masthead,
+                      .mastfoot {
+                        width: 90%; /* Must be percentage or pixels for horizontal alignment */
+                      }
+                    }
+
+
+                    @media (min-width: 1200px) {
+                      .masthead,
+                      .mastfoot {
+                        width:1100px;
+                      }
+                    }
+
+
+
+                   #profiles .cover-heading, 
+                   #profiles h4,
+                   #profiles p {color:#ffffff;}
+
+                    /*
+                     * Footer
+                     */
+
+                    .mastfoot {
+                      color: #999; /* IE8 proofing */
+                      color: rgba(255,255,255,.5);
+                    }
+
+
+
+                    .btn-clear-black {color:#333; border-color: #333;text-decoration:none !important; border-width:2px; background-color:transparent; font-weight:bold;}
+                       .btn-clear-black.active, .btn-clear-black:hover {color:#fff; border-color: transparent; text-decoration:none !important; border-width:2px; background-color:#333;}
+                    .btn-clear-white {color:#fff; border-color: #fff;text-decoration:none !important; border-width:2px; background-color:transparent; font-weight:bold;}
+                       .btn-clear-white.active, .btn-clear-white:hover {color:#111; border-color: transparent; text-decoration:none !important; border-width:2px; background-color:#fff;}
+  
+                    /*
+                     * SORT ME!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                     */   
+                    
+                   /* ======= Sectional  ===========*/         
+                    .sections {padding:60px 0;}           
+                    .subsections {padding:40px 0;}
+                    #races {z-index:340; position:relative; background-color:#4f84c5;}
+                    #profiles {min-height:800; background-color:#c9302c}
+
+                    #join {background-image:url(); background-color:#cecece;}
+                    #join > div {border:6px solid #aaa;}
+                    .sections#runners2 {padding:180px 0;}
+                    .section-image-wrapper {
+                      color:#fff;
+                      text-shadow: 0 1px 3px rgba(0,0,0,.5);    
+                      -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+                              box-shadow: inset 0 0 100px rgba(0,0,0,.5);                                    
+        
+                      width: 100%;
+
+
+                       }
+                      
+
+                      .img-circle.bordered { border:5px solid rgba(0,0,0,.2);}
+
+                       .section-image-wrapper-inner {
+                                vertical-align: top;
+                              }
+
+
+                      .jumbotron.jumbotron-clear {
+                                background-color: transparent; 
+                                background-image: none;
+                              }   
+
+                    h1.cover-heading {font-family:Raleway, arial; font-weight:900; text-transform:uppercase;}
+
+                    /*.scroll-down {position:absolute; bottom:20px; width:100%; text-align:center;}*/
+                    .scroll-down {position:relative; width:100%; text-align:center;}
+                    .scroll-down .btn {
+                                width: 50px;
+                                height: 50px;
+                                padding: 0;
+                                border: 2px solid #fff;
+                                border-radius: 100%;
+                                font-size: 30px;
+                                line-height: 50px;
+                                letter-spacing: normal;
+                                color: #fff;
+                                -webkit-transition: all .5s;
+                                -moz-transition: all .5s;
+                                transition: all .5s;
+                              }
+                    @media (max-width: 480px) { 
+                        .scroll-down {}
+                    }
+
+                 /* ======= Group Buttons ===========*/
+                    .ui-group-buttons .or{position:relative;float:left;width:.3em;height:1.3em;z-index:3;font-size:12px}
+                    .ui-group-buttons .or:before{position:absolute;top:50%;left:50%;content:'or';background-color:#5a5a5a;margin-top:-.1em;margin-left:-.9em;width:1.8em;height:1.8em;line-height:1.55;color:#fff;font-style:normal;font-weight:400;text-align:center;border-radius:500px;-webkit-box-shadow:0 0 0 1px rgba(0,0,0,0.1);box-shadow:0 0 0 1px rgba(0,0,0,0.1);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}
+                    .ui-group-buttons .or:after{position:absolute;top:0;left:0;content:' ';width:.3em;height:2.84em;background-color:rgba(0,0,0,0);border-top:.6em solid #5a5a5a;border-bottom:.6em solid #5a5a5a}
+                    .ui-group-buttons .or.or-lg{height:1.3em;font-size:16px}
+                    .ui-group-buttons .or.or-lg:after{height:2.85em}
+                    .ui-group-buttons .or.or-sm{height:1em}
+                    .ui-group-buttons .or.or-sm:after{height:2.5em}
+                    .ui-group-buttons .or.or-xs{height:.25em}
+                    .ui-group-buttons .or.or-xs:after{height:1.84em;z-index:-1000}
+                    .ui-group-buttons{display:inline-block;vertical-align:middle}
+                    .ui-group-buttons:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+                    .ui-group-buttons .btn{float:left;border-radius:0}
+                    .ui-group-buttons .btn:first-child{margin-left:0;border-top-left-radius:.25em;border-bottom-left-radius:.25em;padding-right:15px}
+                    .ui-group-buttons .btn:last-child{border-top-right-radius:.25em;border-bottom-right-radius:.25em;padding-left:15px}
+
+                    @media (max-width: 480px) { 
+                          .ui-group-buttons .btn {width:100%; border-radius:.25em; margin:10px 0 0 0;}
+                          .or {display:none;}
+
+                    }
+
+                /* ======= Forms ===========*/
+
+
+                   @media (min-width: 768px) {                    
+                          .form-horizontal .control-label {text-align:left;}
+                        }
+                    @media (max-width: 851px) {                    
+                          .checkbox, .radio {padding:10px 0 40px;}
+                        }
+
+
+                    input[type="checkbox"] {
+                        background-color:transparent;
+                      }
+                    .form-signin {
+                      max-width: 380px;
+                      padding: 15px;
+                      margin: 0 auto;
+                    }
+                    .form-signin .form-signin-heading,
+                    .form-signin .checkbox {
+                      margin-bottom: 10px;
+                    }
+                    .form-signin .checkbox {
+                      font-weight: normal;
+                    }
+                    .form-signin .form-control {
+                      position: relative;
+                      height: auto;
+                      -webkit-box-sizing: border-box;
+                         -moz-box-sizing: border-box;
+                              box-sizing: border-box;
+                      padding: 10px;
+                      font-size: 16px;
+                      color:#888;
+                    }
+                    .form-signin .form-control:focus {
+                      z-index: 2;
+                    }
+                    .form-signin input[name="cons_first_name"],
+                    .form-signin input[name="cons_last_name"] {
+                      margin-bottom: -1px;
+                      border-bottom-left-radius: 0;
+                       border-bottom-right-radius: 0;
+                       width:50%;
+                    }
+
+                      @media (max-width: 480px) { 
+                          .form-signin input[name="cons_first_name"],
+                          .form-signin input[name="cons_last_name"] {
+                              width:100%;
+                          }
+                      }
+
+
+                    .form-signin input[name="cons_email"] {
+                      margin-bottom: 10px;
+                      border-top-left-radius: 0;
+                      border-top-right-radius: 0;
+                    }
+
+
+                /* ======= Updates Window Classes ===========*/
+                    .btn-circle.btn-lg {
+                      width: 50px;
+                      height: 50px;
+                      padding: 10px 16px;
+                      font-size: 18px;
+                      line-height: 1.33;
+                      border-radius: 25px;
+                    }
+
+
+                 /* ======= Timeline  ===========*/
+
+                 .marathon-timeline-container {
+                    margin-top:-325px;
+                 }
+                     @media (max-width: 1260px) {
+                        .marathon-timeline-container {margin-top:-25px;}
+                       }   
+
+
+
+
+
+
+
+                    .timeline {
+                        position: relative;
+                        padding: 20px 0 20px;
+                        list-style: none;
+                    }
+
+                          .timeline:before {
+                              content: " ";
+                              position: absolute;
+                              top: 0;
+                              bottom: 0;
+                              left: 0;
+                              width: 3px;
+                              margin-left: -1.5px;
+                              background-color: #333;
+                          }
+
+                          .timeline li {
+                              position: relative;
+                              margin-bottom: 20px;
+                          }
+
+                          .timeline li:before,
+                          .timeline li:after {
+                              content: " ";
+                              display: table;
+                          }
+
+                          .timeline li:after {
+                              clear: both;
+                          }
+
+                          .timeline li:before,
+                          .timeline li:after {
+                              content: " ";
+                              display: table;
+                          }
+
+                          .timeline li:after {
+                              clear: both;
+                          }
+
+                          .timeline li > .timeline-panel {
+                              float: left;
+                              position: relative;
+                              width: 93%;
+                              padding: 20px;
+                              border: 1px solid #d4d4d4;
+                              border-radius: 2px;
+                              -webkit-box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+                              box-shadow: 0 1px 6px rgba(0,0,0,0.175);
+                              background-color:#fff;
+                          }
+
+                          .timeline li > .timeline-panel:before {
+                              content: " ";
+                              display: inline-block;
+                              position: absolute;
+                              top: 26px;
+                              right: -15px;
+                              border-top: 15px solid transparent;
+                              border-right: 0 solid #ccc;
+                              border-bottom: 15px solid transparent;
+                              border-left: 15px solid #ccc;
+                          }
+
+                          .timeline li > .timeline-panel:after {
+                              content: " ";
+                              display: inline-block;
+                              position: absolute;
+                              top: 27px;
+                              right: -14px;
+                              border-top: 14px solid transparent;
+                              border-right: 0 solid #fff;
+                              border-bottom: 14px solid transparent;
+                              border-left: 14px solid #fff;
+                          }
+
+                          .timeline li > .timeline-badge {
+                              z-index: 100;
+                              position: absolute;
+                              top: 16px;
+                              left: 0;
+                              width: 50px;
+                              height: 50px;
+                              margin-left: -25px;
+                              border-radius: 50% 50% 50% 50%;
+                              text-align: center;
+                              font-size: 1.4em;
+                              line-height: 50px;
+                              color: #fff;
+                              background-color: #573c45;
+                          }
+
+                          .timeline li.timeline-inverted > .timeline-panel {
+                              float: right;
+                          }
+
+                          .timeline li.timeline-inverted > .timeline-panel:before {
+                              right: auto;
+                              left: -15px;
+                              border-right-width: 15px;
+                              border-left-width: 0;
+                          }
+
+                          .timeline li.timeline-inverted > .timeline-panel:after {
+                              right: auto;
+                              left: -14px;
+                              border-right-width: 14px;
+                              border-left-width: 0;
+                          }
+
+                          .timeline-badge.primary {
+                              background-color: #2e6da4 !important;
+                          }
+
+                          .timeline-badge.success {
+                              background-color: #3f903f !important;
+                          }
+
+                          .timeline-badge.warning {
+                              background-color: #f0ad4e !important;
+                          }
+
+                          .timeline-badge.danger {
+                              background-color: #d9534f !important;
+                          }
+
+                          .timeline-badge.info {
+                              background-color: #5bc0de !important;
+                          }
+                          .timeline-badge.custom {
+                              background-color: #fff !important; 
+                              border:4px solid #333;
+                              color:#c9302c;
+                          }
+                          .timeline-badge.custom .glyphicon {color:#c9302c;}
+
+
+
+                          .timeline-title {
+                              margin-top: 0;
+                              color: inherit;
+                          }
+
+                          .timeline-body > p,
+                          .timeline-body > ul {
+                              margin-bottom: 0;
+                          }
+
+                          .timeline-body > p + p {
+                              margin-top: 5px;
+                          }
+
+                          @media(max-width:767px) {
+                              ul.timeline:before {
+                                  left: 40px;
+                              }
+
+                              ul.timeline li > .timeline-panel {
+                                  width: calc(100% - 90px);
+                                  width: -moz-calc(100% - 90px);
+                                  width: -webkit-calc(100% - 90px);
+                              }
+
+                              ul.timeline li > .timeline-badge {
+                                  top: 16px;
+                                  left: 15px;
+                                  margin-left: 0;
+                              }
+
+                              ul.timeline li > .timeline-panel {
+                                  float: right;
+                              }
+
+                              ul.timeline li > .timeline-panel:before {
+                                  right: auto;
+                                  left: -15px;
+                                  border-right-width: 15px;
+                                  border-left-width: 0;
+                              }
+
+                              ul.timeline li > .timeline-panel:after {
+                                  right: auto;
+                                  left: -14px;
+                                  border-right-width: 14px;
+                                  border-left-width: 0;
+                              }
+                          }
+
+    </style>
+
+
+<!-- end CSS -->
+
+
+
+
+
+
+
+    <div class="hero-wrapper">
+
+      <div class="hero-wrapper-inner">
+
+        <div class="cover-container container">
+
+          <div class="masthead clearfix">
+            <div class="cover clearfix">
+              <h3 class="masthead-brand"><img src="http://www.americares.org/assets/images/logos/amca-white-200px.png" alt="AmeriCares"></h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li><a href="http://www.americares.org/you-can-help/individuals/fundraise-for-us/2015/"><span class="glyphicon glyphicon-home"></span> &nbsp;Marathon Home</a></li>
+                  <li><a href="http://www.americares.org/you-can-help/individuals/fundraise-for-us/2015/#join"><span class="glyphicon glyphicon-edit"></span> &nbsp;Registration</a></li>
+                  <li><a href="mailto:hdonaldson@americares.org"><span class="glyphicon glyphicon-envelope"></span> &nbsp;Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+
+
+    
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+<!-- /////////////////////////////////////////////////////// -->
+
+
+<style>
+/* avatar */
+.circular-image {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  border: 20px solid rgba(0, 0, 0, 0.1);
+}
+.circular-image img {
+  /* we can't use percentage value for image with border-radius */
+  -webkit-border-radius: 265px;
+  -moz-border-radius: 265px;
+  -ms-border-radius: 265px;
+  -o-border-radius: 265px;
+  border-radius: 265px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (min-width: 992px) {
+  .circular-image img {
+    margin: 0;
+  }
+}
+
+.big-cta-circle-button {
+  box-shadow: 2px 4px 0 2px rgba(0,0,0,0.1);
+  border: .5em solid #c9302c;
+  font-size: 1em;
+  line-height: 1.6em;
+  color: #ffffff;
+  background-color: #d9534f;
+  margin: auto;
+  border-radius: 50%;
+  height: 7em;
+  width: 7em;
+  top:72%;
+  left:0px;
+  position: absolute;
+}
+.big-cta-circle-button:hover {
+  color:#ffffff;
+    background-color: #c9302c;
+  text-decoration: none;
+  border-color: #c9302c;
+  
+}
+.big-cta-circle-button:visited {
+  color:#ffffff;
+    background-color: #c9302c;
+  text-decoration: none;
+  
+}
+</style>
+
+
+<header class="jumbotron sectionheader">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 left">
+            <div class="circular-image">
+              <img src="http://www.americares.org/you-can-help/individuals/fundraise-for-us/2015/i/jon-marty-high-five-race-2013-500px-1.jpg" class="img-responsive" alt="Profile Picture">
+            </div>
+
+
+                    <div class="x">
+                    <a class="btn btn-default big-cta-circle-button" href="#profiles">Meet<br />Our<br />Team<br/><i class="glyphicon glyphicon-chevron-down"></i></a>
+              
+                    </div>   
+
+
+
+
+          </div>
+          <div class="col-md-6 right">
+
+            <h1 class="cover-heading">HELLO, RUNNERS!</h1>
+            <p class="lead">Below you will find some essential updates for upcoming marathons. We will be updating this page regularly with anything that you might need to run your race. Feel free to reach out to us at the above Contact Us link.  &mdash; Happy Running!</p>
+          </div>
+        </div>
+      </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- /////////////////////////////////////////////////////// -->
+<div class="sections" id="dashboard">
+    <div class="container withtop" id="dashboarditems">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="col-sm-push-0 col-sm-12 col-lg-push-6 col-lg-6 marathon-timeline-container">
+
+                  <div class="x">
+                                  <!-- /.panel-heading -->
+                                  <div class="panel-bodyx">
+                                      <ul class="timeline">
+
+
+
+
+                                            <div class="templateComponent" id="templatelist-619380322" style="display: inline;"></div>
+
+
+
+
+
+
+
+                                         
+                                      </ul>
+                                  </div>
+                        <!-- /.panel-body -->
+                    </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="col-sm-push-0 col-sm-12 col-lg-pull-6 col-lg-5">
+                 <div class="text-center padding3">
+                    <h1 class="cover-heading">Leave a Comment...</h1>
+                </div>
+                <div id="disqus_thread"></div>
+                  <script type="text/javascript">
+                      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                      var disqus_shortname = 'americaresrunnerupdates'; // required: replace example with your forum shortname
+
+                      /* * * DON'T EDIT BELOW THIS LINE * * */
+                      (function() {
+                          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                      })();
+                  </script>
+                  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                  
+
+
+
+
+                    <div class="chat-panel panel panel-default" style="display:none;">
+                        <div class="panel-heading">
+                            <i class="glyphicon glyphicon-comment"></i>
+                            Latest Updates for Team AmeriCares
+                            
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <ul class="chat">
+                                <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-lg"><i class="glyphicon glyphicon-user"></i></button>
+                                        <!--<img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle">-->
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <strong class="primary-font">Jack Sparrow</strong>
+                                            <small class="pull-right text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> 12 mins ago
+                                            </small>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                        </p>
+                                    </div>
+                                </li>
+                              
+                                <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-lg"><i class="glyphicon glyphicon-user"></i></button>
+                                        <!--<img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle">-->
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <strong class="primary-font">Jack Sparrow</strong>
+                                            <small class="pull-right text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> 14 mins ago</small>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                        </p>
+                                    </div>
+                                </li>
+ 
+
+
+                                 <li class="left clearfix">
+                                    <span class="chat-img pull-left">
+                                                  <button type="button" class="btn btn-primary btn-circle btn-lg"><i class="glyphicon glyphicon-user"></i></button>
+                                        <!--<img src="http://placehold.it/50/55C1E7/fff" alt="User Avatar" class="img-circle">-->
+                                    </span>
+                                    <div class="chat-body clearfix">
+                                        <div class="header">
+                                            <strong class="primary-font">Jack Sparrow</strong>
+                                            <small class="pull-right text-muted">
+                                                <i class="fa fa-clock-o fa-fw"></i> 14 mins ago</small>
+                                        </div>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales.
+                                        </p>
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                        <!-- /.panel-body -->
+                        <div class="panel-footer">
+                            <div class="input-group">
+                                <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-warning btn-sm" id="btn-chat">
+                                        Send
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- /.panel-footer -->
+                    </div>
+
+              </div>
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+<!-- /////////////////////////////////////////////////////// -->
+
+
+
+<hr class="featurette-divider" id="our-runners">
+
+
+
+<!-- ////////////////////////////////////////////////////// -->
+<div class="subsections" id="profiles">
+
+    <div class="container">
+     <div class="row"> 
+         <div class="text-center">
+           <h1 class="cover-heading">Who's On Our Team?</h1>
+                <div class="filterbuttons" style="padding:10px 0 40px;">
+                        <button class="filter btn btn-clear-white" data-filter="all">See All</button>
+                        <button class="filter btn btn-clear-white" data-filter=".category-1">Shamrock Shuffle</button>
+                        <button class="filter btn btn-clear-white" data-filter=".category-2">NYC Marathon</button>
+                  </div>
+         </div>
+      </div>
+     <div class="row withtop">
+              <div class="links row withtop" id="MixCategories">
+                <div class="col-lg-3 mix category-2 text-center" data-my-order="2">
+                  <img class="img-circle bordered" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                  <h4>Runner A</h4>
+                 
+                  <p><a class="btn btn-default btn-sm" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View Profile &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                 <div class="col-lg-3 mix category-1 text-center" data-my-order="1">
+                  <img class="img-circle bordered" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                  <h4>Michael Nyenhuis</h4>
+                 
+                  <p><a class="btn btn-default btn-sm" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View Profile &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->        
+                <div class="col-lg-3 mix category-1 text-center" data-my-order="3">
+                  <img class="img-circle bordered" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                  <h4>Runner B</h4>
+                  
+                  <p><a class="btn btn-default btn-sm" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View Profile &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-3 mix category-2 text-center" data-my-order="4">
+                  <img class="img-circle bordered" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                  <h4>Runner C</h4>
+                  
+                  <p><a class="btn btn-default btn-sm" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View Profile &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+
+                  <div class="col-lg-3 mix category-2 text-center" data-my-order="4">
+                    <img class="img-circle bordered" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                    <h4>Runner C</h4>
+                    
+                    <p><a class="btn btn-default btn-sm" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View Profile &raquo;</a></p>
+                  </div><!-- /.col-lg-4 -->
+                  
+                <div class="col-lg-3 mix category-2 text-center" data-my-order="4">
+                    <img class="img-circle bordered" src="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+                    <h4>Runner C</h4>
+                    
+                    <p><a class="btn btn-default btn-sm" href="http://www.americares.org/afc/newsroom/galleries/stamford-clinic-opening-jan-2014/US1401_AO_DSC_0267-500px.jpg" role="button" data-gallery>View Profile &raquo;</a></p>
+                  </div><!-- /.col-lg-4 -->
+
+              </div><!-- /.row -->
+
+
+          </div>
+  </div>
+</div>
+<!-- /////////////////////////////////////////////////////// -->
+
+
+
+<hr class="featurette-divider">
+
+
+<!-- /////////////////////////////////////////////////////// -->
+<footer class="footer" id="footer">
+
+<div class="container text-center" >
+            <div class="row social">
+                <div class="col-lg-12">
+                      <div class="addthis_sharing_toolbox"></div>
+                </div>
+            </div>
+            <div class="row copyright">
+                <div class="col-lg-12">
+                    <p class="small">&copy; 2015 AmeriCares</p>
+                </div>
+            </div>
+        </div>
+
+</footer>
+
+
+
+    <!-- ================================================== 
+              Modal Window Hidden
+    ================================================== -->
+
+ <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+      <!-- The container for the modal slides -->
+      <div class="slides"></div>
+      <!-- Controls for the borderless lightbox -->
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+
+      <!-- The modal dialog, which will be used to wrap the lightbox content -->
+      <div class="modal fade">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title"></h4>
+                  </div>
+                  <div class="modal-body next"></div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-default pull-left prev">
+                          <i class="glyphicon glyphicon-chevron-left"></i>
+                          Previous
+                      </button>
+                      <button type="button" class="btn btn-primary next">
+                          Next
+                          <i class="glyphicon glyphicon-chevron-right"></i>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- The modal dialog, which will be used to wrap the lightbox content -->
+  </div>   
+
+   
+
+
+  
+
+
+
+     <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'americaresrunnerupdates'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    

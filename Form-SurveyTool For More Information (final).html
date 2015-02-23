@@ -1,0 +1,105 @@
+		<!-- ///////////////////////////////////////////////////////////// -->
+
+		<form name="MarathonInfo" class="form-signin" action="http://help.americares.org/site/Survey"
+			onsubmit="return validateFields()" method="POST">
+			
+
+			<input type="hidden" value="t" id="cons_info_component"
+				name="cons_info_component"> <span
+				style="color: #fff !important;"></span></br>
+
+		<!-- === Form Head === -->
+ 			<h2 class="form-signin-heading">Want to Learn More?</h2>
+
+
+		<fieldset>
+			<div class="input-group">
+					<!-- first name field -->
+					<input class="form-control" id="cons_first_name" name="cons_first_name" title="cons_first_name" maxlength="255"  placeholder="First Name" value="First Name"
+						size="15"
+						type="text"
+						onblur="if (this.value == '') this.value=this.defaultValue;"
+						onfocus="if (this.value == this.defaultValue) this.value='';"  />
+
+					<!-- last name field -->
+					<input class="form-control" id="cons_last_name" name="cons_last_name" title="cons_last_name" maxlength="255"
+						size="15" placeholder="Last Name" value="Last Name"
+						type="text"
+						onblur="if (this.value == '') this.value=this.defaultValue;"
+						onfocus="if (this.value == this.defaultValue) this.value='';"
+					 /> 
+             </div>
+
+
+             
+			<!-- E-mail field -->
+			<input class="form-control" id="cons_email" name="cons_email" title="cons_email" maxlength="255" size="15"
+				type="text" value="Your E-mail" placeholder="Your E-mail"
+				onblur="if (this.value == '') this.value=this.defaultValue;"
+				onfocus="if (this.value == this.defaultValue) this.value='';"
+				 />
+
+
+			<div class="ui-group-buttons">
+				<input class="btn btn-primary btn-lg" 
+					type="submit" value="Contact Me" id="ACTION_SUBMIT_SURVEY_RESPONSE"
+					name="ACTION_SUBMIT_SURVEY_RESPONSE" />
+
+					<div class="or or-lg"></div>
+
+					<a class="btn btn-warning btn-lg" href="#join" type="button">Register Below</a></div>
+			</div>
+
+			<div style="display: none">
+				<label for="denySubmit">Spam Control Text:</label>&nbsp; <input
+					type="text"
+					alt="This field is used to prevent form submission by scripts."
+					value="" id="denySubmit" name="denySubmit">&nbsp;Please
+				leave this field empty
+			</div>
+
+			<input type="hidden" value="2500" id="SURVEY_ID" name="SURVEY_ID" />
+
+			</fieldset>
+		</form>
+	</div>
+</aside>
+<script type="text/javascript" language="javascript">
+	
+//  highlight fields that are missing 
+function testFields(field) {
+
+	if (field.value == "First Name" || field.value == "Last Name" || field.value == "Your E-mail") {
+		
+	    field.style.backgroundColor = "#FEFEDB";
+	    return false;
+	    }
+	    else {
+	    field.style.backgroundColor = "white";
+	    return true;    
+	    }
+
+	}// end of testFields
+
+<!-- validates the require fields -->
+	function validateFields() {
+		
+		var valid = true;
+		if (testFields( document.forms["MarathonInfo"].cons_first_name)==false) {
+			valid = false;
+		}
+		if (testFields( document.forms["MarathonInfo"].cons_last_name)==false) {
+			valid = false;
+		}
+		if (testFields( document.forms["MarathonInfo"].cons_email)==false) {
+			valid = false;
+		}
+		if (valid == false){
+			alert("Looks like you missed a spot! Please check the form to see if a field hasn't been entered correctly.");
+		}
+		
+		return valid;
+	}// end of validateFields
+</script>
+
+		<!-- ///////////////////////////////////////////////////////////// -->
